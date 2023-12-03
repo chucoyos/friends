@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @message = "Hello World!"
+    @message = "Index Page"
   end
   def about
     @message = "About page"
