@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Friends</h1>
+
+<div id="friends" style=''>
+  <% @friends.each do |friend| %>
+  <div style=''>
+    <%= render friend %>
+    </div>
+    <p>
+      <%= link_to "Show this friend", friend %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New friend", new_friend_path %>
