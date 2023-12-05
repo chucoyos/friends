@@ -26,3 +26,5 @@ Things you may want to cover:
 - rails g scaffold Friend first:string last:string email:string phone:string twitter:string
 
 - rails db:migrate
+
+- rails g migration AddUserIdToFriends user_id:integer:index
